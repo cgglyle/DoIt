@@ -558,8 +558,9 @@ diaspora:
 
 gpg:
   Weight: 71
-  Prefix:
+  Url:
   Title: GPG
+  Newtab: false
   Icon:
     Src: svg/icons/fingerprint.svg
 
