@@ -57,6 +57,12 @@
                     <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
                     <span class="icp">{{ . | safeHTML }}</span>
                 {{- end -}}
+
+                {{- /* GPG Key */ -}}
+                {{- with .Site.Params.footer.gpgKey -}}
+                &nbsp;|&nbsp;<span class="gpg-key">{{ . | safeHTML }}</span>
+                {{- end -}}
+
             </div>
             <div class="footer-line">
                 {{- /* 不蒜子 */ -}}
