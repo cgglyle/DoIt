@@ -556,9 +556,16 @@ diaspora:
   Icon:
     Simpleicons: diaspora
 
+gpg:
+  Weight: 71
+  Prefix:
+  Title: GPG
+  Icon:
+    Src: svg/icons/fingerprint.svg
+
 # 071: Email
 email:
-  Weight: 71
+  Weight: 9998
   Template: mailto:%v
   Title: Email
   Icon:
@@ -566,7 +573,7 @@ email:
 
 # 072: RSS
 rss:
-  Weight: 72
+  Weight: 9999
   Url: /index.xml
   Title: RSS
   Newtab: true
