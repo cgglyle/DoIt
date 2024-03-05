@@ -63,6 +63,11 @@
                 &nbsp;|&nbsp;<span class="gpg-key">{{ . | safeHTML }}</span>
                 {{- end -}}
 
+                {{- /* privacy */ -}}
+                {{- with .Site.Params.footer.privacy -}}
+                &nbsp;|&nbsp;<span class="privacy">{{ . | safeHTML }}</span>
+                {{- end -}}
+
             </div>
             <div class="footer-line">
                 {{- /* 不蒜子 */ -}}
